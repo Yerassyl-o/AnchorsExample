@@ -32,6 +32,22 @@ class ViewController: UIViewController {
         button.tintColor = .white
         return button
     }()
+    let button3: UIButton = {
+        let button = UIButton(type: .system)
+        button.setTitle("Press me", for: .normal)
+        button.translatesAutoresizingMaskIntoConstraints = false
+        button.backgroundColor = .black
+        button.tintColor = .white
+        return button
+    }()
+    let button2: UIButton = {
+        let button = UIButton(type: .system)
+        button.setTitle("Press me", for: .normal)
+        button.translatesAutoresizingMaskIntoConstraints = false
+        button.backgroundColor = .black
+        button.tintColor = .white
+        return button
+    }()
     
     override func viewDidLoad() {
         super.viewDidLoad()

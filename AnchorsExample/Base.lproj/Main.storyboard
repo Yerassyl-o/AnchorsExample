@@ -12,7 +12,7 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AnchorsExample" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -23,6 +23,7 @@
                                     <constraint firstAttribute="width" constant="47" id="RZd-oL-eqV"/>
                                 </constraints>
                             </switch>
+<<<<<<< HEAD
                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="W7B-Lf-aTP">
                                 <rect key="frame" x="132" y="839" width="150" height="4"/>
                                 <constraints>
@@ -30,13 +31,30 @@
                                     <constraint firstAttribute="width" constant="150" id="pie-gW-XWS"/>
                                 </constraints>
                             </progressView>
+=======
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="Bu8-mc-zou">
+                                <rect key="frame" x="146" y="146" width="122" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="122" id="Z9W-73-TSB"/>
+                                    <constraint firstAttribute="height" constant="28" id="og4-vT-JTS"/>
+                                </constraints>
+                                <color key="pageIndicatorTintColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="currentPageIndicatorTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </pageControl>
+>>>>>>> hello
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="W7B-Lf-aTP" secondAttribute="bottom" constant="19" id="5YM-Fv-jfK"/>
                             <constraint firstItem="vop-ln-tDt" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="7c4-lz-Uhh"/>
+<<<<<<< HEAD
                             <constraint firstItem="W7B-Lf-aTP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="db8-lF-Utb"/>
+=======
+                            <constraint firstItem="Bu8-mc-zou" firstAttribute="top" secondItem="vop-ln-tDt" secondAttribute="bottom" constant="41" id="N4E-6X-ilE"/>
+                            <constraint firstItem="Bu8-mc-zou" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hDl-kd-46N"/>
+                            <constraint firstItem="Bu8-mc-zou" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="sHL-Y5-qI6"/>
+>>>>>>> hello
                             <constraint firstItem="vop-ln-tDt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tpo-oY-40Z"/>
                         </constraints>
                     </view>
