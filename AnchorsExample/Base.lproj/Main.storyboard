@@ -23,11 +23,20 @@
                                     <constraint firstAttribute="width" constant="47" id="RZd-oL-eqV"/>
                                 </constraints>
                             </switch>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="W7B-Lf-aTP">
+                                <rect key="frame" x="132" y="839" width="150" height="4"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="4" id="0fx-RP-lB5"/>
+                                    <constraint firstAttribute="width" constant="150" id="pie-gW-XWS"/>
+                                </constraints>
+                            </progressView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="W7B-Lf-aTP" secondAttribute="bottom" constant="19" id="5YM-Fv-jfK"/>
                             <constraint firstItem="vop-ln-tDt" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="7c4-lz-Uhh"/>
+                            <constraint firstItem="W7B-Lf-aTP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="db8-lF-Utb"/>
                             <constraint firstItem="vop-ln-tDt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tpo-oY-40Z"/>
                         </constraints>
                     </view>
